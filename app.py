@@ -34,10 +34,6 @@ def home():
 def aboutusnew():
     return render_template('aboutusnew.html')
 
-@app.route('/new')
-def new():
-    return render_template("new.html")
-
   
 @app.route('/predict',methods=['GET'])
 def predict():
